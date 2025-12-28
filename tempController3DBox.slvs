@@ -1,0 +1,5483 @@
+±²³SolveSpaceREVa
+
+
+Group.h.v=00000001
+Group.type=5000
+Group.name=#references
+Group.color=ff000000
+Group.skipFirst=0
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000002
+Group.type=5001
+Group.order=1
+Group.name=sketch-in-plane
+Group.activeWorkplane.v=80020000
+Group.color=ff000000
+Group.subtype=6000
+Group.skipFirst=0
+Group.predef.q.w=1.00000000000000000000
+Group.predef.origin.v=00010001
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+}
+AddGroup
+
+Group.h.v=00000005
+Group.type=5300
+Group.order=5
+Group.name=GeneralIO-Rev4-board-only
+Group.color=00646464
+Group.skipFirst=0
+Group.meshCombine=2
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+    1 00010000 0
+    2 00010001 0
+    3 00010020 0
+    4 00020000 0
+    5 00020001 0
+    6 00020020 0
+    7 00030000 0
+    8 00030001 0
+    9 00030020 0
+    10 00040000 0
+    11 00040001 0
+    12 00040002 0
+    13 00070000 0
+    14 00070001 0
+    15 00070002 0
+    16 000a0000 0
+    17 000a0001 0
+    18 000a0002 0
+    19 000d0000 0
+    20 000d0001 0
+    21 000d0002 0
+    22 00130000 0
+    23 00130001 0
+    24 00130002 0
+    25 00190000 0
+    26 00190001 0
+    27 00190002 0
+    28 001c0000 0
+    29 001c0001 0
+    30 001c0002 0
+    31 001f0000 0
+    32 001f0001 0
+    33 001f0002 0
+    34 00220000 0
+    35 00220001 0
+    36 00220002 0
+    37 00280000 0
+    38 00280001 0
+    39 00280002 0
+    40 002b0000 0
+    41 002b0001 0
+    42 002b0002 0
+    43 00310000 0
+    44 00310001 0
+    45 00310002 0
+    46 00340000 0
+    47 00340001 0
+    48 00340002 0
+    49 00370000 0
+    50 00370001 0
+    51 00370002 0
+    52 003d0000 0
+    53 003d0001 0
+    54 003d0002 0
+    55 00430000 0
+    56 00430001 0
+    57 00430002 0
+    58 00460000 0
+    59 00460001 0
+    60 00460002 0
+    61 00490000 0
+    62 00490001 0
+    63 00490002 0
+    64 004c0000 0
+    65 004c0001 0
+    66 004c0002 0
+    67 004f0000 0
+    68 004f0001 0
+    69 004f0002 0
+    70 00520000 0
+    71 00520001 0
+    72 00520020 0
+    73 00520040 0
+    74 00530000 0
+    75 00530001 0
+    76 00530020 0
+    77 00530040 0
+    78 00540000 0
+    79 00540001 0
+    80 00540020 0
+    81 00540040 0
+    82 00550000 0
+    83 00550001 0
+    84 00550020 0
+    85 00550040 0
+    86 00560000 0
+    87 00560001 0
+    88 00560002 0
+    89 00570000 0
+    90 00570001 0
+    91 00570002 0
+    92 00580000 0
+    93 00580001 0
+    94 00580002 0
+    95 00590000 0
+    96 00590001 0
+    97 00590002 0
+    98 005a0000 0
+    99 005a0001 0
+    100 005a0020 0
+    101 005a0040 0
+    102 005b0000 0
+    103 005b0001 0
+    104 005b0020 0
+    105 005b0040 0
+    106 005c0000 0
+    107 005c0001 0
+    108 005c0020 0
+    109 005c0040 0
+    110 005d0000 0
+    111 005d0001 0
+    112 005d0020 0
+    113 005d0040 0
+    114 005e0000 0
+    115 005e0001 0
+    116 005e0020 0
+    117 005e0040 0
+    118 005f0000 0
+    119 005f0001 0
+    120 005f0020 0
+    121 005f0040 0
+    122 00600000 0
+    123 00600001 0
+    124 00600020 0
+    125 00600040 0
+    126 00610000 0
+    127 00610001 0
+    128 00610020 0
+    129 00610040 0
+    130 00620000 0
+    131 00620001 0
+    132 00620002 0
+    133 00630000 0
+    134 00630001 0
+    135 00630002 0
+    136 00640000 0
+    137 00640001 0
+    138 00640002 0
+    139 00650000 0
+    140 00650001 0
+    141 00650002 0
+    142 80020000 0
+    143 80020001 0
+    144 80020002 0
+    145 80030000 0
+    146 80030001 0
+    147 80030002 0
+    148 80040001 0
+    149 80040002 0
+    150 80040003 0
+    151 80040004 0
+    152 80040005 0
+    153 80040006 0
+    154 80040007 0
+    155 80040008 0
+    156 80040009 0
+    157 8004000a 0
+    158 8004000b 0
+    159 8004000c 0
+    160 8004000d 0
+    161 8004000e 0
+    162 8004000f 0
+    163 80040010 0
+    164 80040011 0
+    165 80040012 0
+    166 80040013 0
+    167 80040014 0
+    168 80040015 0
+    169 80040016 0
+    170 80040017 0
+    171 80040018 0
+    172 80040019 0
+    173 8004001a 0
+    174 8004001b 0
+    175 8004001c 0
+    176 8004001d 0
+    177 8004001e 0
+    178 8004001f 0
+    179 80040020 0
+    180 80040021 0
+    181 80040022 0
+    182 80040023 0
+    183 80040024 0
+    184 80040025 0
+    185 80040026 0
+    186 80040027 0
+    187 80040028 0
+    188 80040029 0
+    189 8004002a 0
+    190 8004002b 0
+    191 8004002c 0
+    192 8004002d 0
+    193 8004002e 0
+    194 8004002f 0
+    195 80040030 0
+    196 80040031 0
+    197 80040032 0
+    198 80040033 0
+    199 80040034 0
+    200 80040035 0
+    201 80040036 0
+    202 80040037 0
+    203 80040038 0
+    204 80040039 0
+    205 8004003a 0
+    206 8004003b 0
+    207 8004003c 0
+    208 8004003d 0
+    209 8004003e 0
+    210 8004003f 0
+    211 80040040 0
+    212 80040041 0
+    213 80040042 0
+    214 80040043 0
+    215 80040044 0
+    216 80040045 0
+    217 80040046 0
+    218 80040047 0
+    219 80040048 0
+    220 8004004b 0
+    221 8004004c 0
+    222 8004004d 0
+    223 8004004e 0
+    224 8004004f 0
+    225 80040050 0
+    226 80040051 0
+    227 80050000 0
+    228 80050001 0
+    229 80050002 0
+    230 80060001 0
+    231 80060002 0
+    232 80060003 0
+    233 80060004 0
+    234 80060005 0
+    235 80060006 0
+    236 80060007 0
+    237 80060008 0
+    238 80060009 0
+    239 8006000a 0
+    240 8006000b 0
+    241 8006000c 0
+    242 8006000d 0
+    243 8006000e 0
+    244 8006000f 0
+    245 80060010 0
+    246 80060011 0
+    247 80060012 0
+    248 80060013 0
+    249 80060014 0
+    250 80060015 0
+    251 80060016 0
+    252 80060017 0
+    253 80060018 0
+    254 80060019 0
+    255 8006001a 0
+    256 8006001b 0
+    257 8006001c 0
+    258 8006001d 0
+    259 8006001e 0
+    260 8006001f 0
+    261 80060020 0
+    262 80060021 0
+    263 80060022 0
+    264 80060023 0
+    265 80060024 0
+    266 80060027 0
+    267 80060028 0
+    268 80060029 0
+    269 8006002a 0
+    270 8006002b 0
+    271 8006002c 0
+    272 8006002d 0
+    273 80070001 0
+    274 80070002 0
+    275 80070003 0
+    276 80070004 0
+    277 80070005 0
+    278 80070006 0
+    279 80070007 0
+    280 80070008 0
+    281 80070009 0
+    282 8007000a 0
+    283 8007000b 0
+    284 8007000c 0
+    285 8007000d 0
+    286 8007000e 0
+    287 8007000f 0
+    288 80070010 0
+    289 80070011 0
+    290 80070012 0
+    291 80070013 0
+    292 80070014 0
+    293 80070015 0
+    294 80070016 0
+    295 80070017 0
+    296 80070018 0
+    297 80070019 0
+    298 8007001a 0
+    299 8007001b 0
+    300 8007001c 0
+    301 8007001d 0
+    302 8007001e 0
+    303 8007001f 0
+    304 80070020 0
+    305 80070021 0
+    306 80070022 0
+    307 80070023 0
+    308 80070024 0
+    309 80070025 0
+    310 80070026 0
+    311 80070027 0
+    312 80070028 0
+    313 80070029 0
+    314 8007002a 0
+    315 8007002b 0
+    316 8007002c 0
+    317 8007002d 0
+    318 8007002e 0
+    319 8007002f 0
+    320 80070030 0
+    321 80070031 0
+    322 80070032 0
+    323 80070033 0
+    324 80070034 0
+    325 80070035 0
+    326 80070036 0
+    327 80070037 0
+    328 80070038 0
+    329 80070039 0
+    330 8007003a 0
+    331 8007003b 0
+    332 8007003c 0
+    333 8007003d 0
+    334 8007003e 0
+    335 8007003f 0
+    336 80070040 0
+    337 80070041 0
+    338 80070042 0
+    339 80070043 0
+    340 80070044 0
+    341 80070045 0
+    342 80070046 0
+    343 80070047 0
+    344 80070048 0
+    345 80070049 0
+    346 8007004a 0
+    347 8007004b 0
+    348 8007004c 0
+    349 8007004d 0
+    350 8007004e 0
+    351 8007004f 0
+    352 80070050 0
+    353 80070051 0
+    354 80070052 0
+    355 80070053 0
+    356 80070054 0
+    357 80070055 0
+    358 80070056 0
+    359 80070057 0
+    360 80070058 0
+    361 80070059 0
+    362 8007005a 0
+    363 8007005b 0
+    364 8007005c 0
+    365 8007005d 0
+    366 8007005e 0
+    367 8007005f 0
+    368 80070060 0
+    369 80070061 0
+    370 80070062 0
+    371 80070063 0
+    372 80070064 0
+    373 80070065 0
+    374 80070066 0
+    375 80070067 0
+    376 80070068 0
+    377 80070069 0
+    378 8007006a 0
+    379 8007006b 0
+    380 8007006c 0
+    381 8007006d 0
+    382 8007006e 0
+    383 8007006f 0
+    384 80070070 0
+    385 80070071 0
+    386 80070072 0
+    387 80070073 0
+    388 80070074 0
+    389 80070075 0
+    390 80070076 0
+    391 80070077 0
+    392 80070078 0
+    393 80070079 0
+    394 8007007a 0
+    395 8007007b 0
+    396 8007007c 0
+    397 8007007d 0
+    398 8007007e 0
+    399 8007007f 0
+    400 80070080 0
+    401 80070081 0
+    402 80070082 0
+    403 80070083 0
+    404 80070084 0
+    405 80070085 0
+    406 80070086 0
+    407 80070087 0
+    408 80070088 0
+    409 80070089 0
+    410 8007008a 0
+    411 8007008b 0
+    412 8007008c 0
+    413 8007008d 0
+    414 8007008e 0
+    415 8007008f 0
+    416 80070090 0
+    417 80070091 0
+    418 80070092 0
+    419 80070093 0
+    420 80070094 0
+    421 80070095 0
+    422 80070096 0
+    423 80070097 0
+    424 80070098 0
+    425 80070099 0
+    426 8007009a 0
+    427 8007009b 0
+    428 8007009c 0
+    429 8007009d 0
+    430 8007009e 0
+    431 8007009f 0
+    432 800700a0 0
+    433 800700a1 0
+    434 800700a2 0
+    435 800700a3 0
+    436 800700a4 0
+    437 800700a5 0
+    438 800700a6 0
+    439 800700a7 0
+    440 800700a8 0
+    441 800700a9 0
+    442 800700aa 0
+    443 800700ab 0
+    444 800700ac 0
+    445 800700ad 0
+    446 800700ae 0
+    447 800700af 0
+    448 800700b0 0
+    449 800700b1 0
+    450 800700b2 0
+    451 800700b3 0
+    452 800700b4 0
+    453 800700b5 0
+    454 800700b6 0
+    455 800700b7 0
+    456 800700b8 0
+    457 800700b9 0
+    458 800700ba 0
+    459 800700bb 0
+    460 800700bc 0
+    461 800700bd 0
+    462 800700be 0
+    463 800700bf 0
+    464 800700c0 0
+    465 800700c1 0
+    466 800700c2 0
+    467 800700c3 0
+    468 800700c4 0
+    469 800700c5 0
+    470 800700c6 0
+    471 800700c7 0
+    472 800700c8 0
+    473 800700c9 0
+    474 800700ca 0
+    475 800700cb 0
+    476 800700cc 0
+    477 800700cd 0
+    478 800700ce 0
+    479 800700cf 0
+    480 800700d0 0
+    481 800700d1 0
+    482 800700d2 0
+    483 800700d3 0
+    484 800700d4 0
+    485 800700d5 0
+    486 800700d6 0
+    487 800700d7 0
+    488 800700d8 0
+    489 800700d9 0
+    490 800700da 0
+    491 800700db 0
+    492 800700dc 0
+    493 800700dd 0
+    494 800700de 0
+    495 800700df 0
+    496 800700e0 0
+    497 800700e1 0
+    498 800700e2 0
+    499 800700e3 0
+    500 800700e4 0
+    501 800700e5 0
+    502 800700e6 0
+    503 800700e7 0
+    504 800700e8 0
+    505 800700e9 0
+    506 800700ea 0
+    507 800700eb 0
+    508 800700ec 0
+    509 800700ed 0
+    510 800700ee 0
+    511 800700ef 0
+    512 800700f0 0
+    513 800700f1 0
+    514 800700f2 0
+    515 800700f3 0
+    516 800700f4 0
+    517 800700f5 0
+    518 800700f6 0
+    519 800700f7 0
+    520 800700f8 0
+    521 800700f9 0
+    522 800700fa 0
+    523 800700fb 0
+    524 800700fc 0
+    525 800700ff 0
+    526 80070100 0
+    527 80070101 0
+    528 80070102 0
+    529 80070103 0
+    530 80070104 0
+    531 80070105 0
+}
+Group.impFileRel=GeneralIO Rev4 board only.slvs
+AddGroup
+
+Group.h.v=00000006
+Group.type=5100
+Group.order=2
+Group.name=extrude
+Group.opA.v=00000002
+Group.color=00ff00ff
+Group.subtype=7000
+Group.skipFirst=0
+Group.predef.entityB.v=80020000
+Group.predef.swapUV=0
+Group.predef.negateU=0
+Group.predef.negateV=0
+Group.visible=1
+Group.suppress=0
+Group.relaxConstraints=0
+Group.allowRedundant=0
+Group.allDimsReference=0
+Group.scale=1.00000000000000000000
+Group.remap={
+    1 00040000 1002
+    2 00040001 1002
+    3 00040002 1002
+    4 00040000 1001
+    5 00040001 1001
+    6 00040002 1001
+    7 00040000 1004
+    8 00040001 1003
+    9 00040002 1003
+    10 00050000 1002
+    11 00050001 1002
+    12 00050002 1002
+    13 00050000 1001
+    14 00050001 1001
+    15 00050002 1001
+    16 00050000 1004
+    17 00050001 1003
+    18 00050002 1003
+    19 00060000 1002
+    20 00060001 1002
+    21 00060002 1002
+    22 00060000 1001
+    23 00060001 1001
+    24 00060002 1001
+    25 00060000 1004
+    26 00060001 1003
+    27 00060002 1003
+    28 00070000 1002
+    29 00070001 1002
+    30 00070002 1002
+    31 00070000 1001
+    32 00070001 1001
+    33 00070002 1001
+    34 00070000 1004
+    35 00070001 1003
+    36 00070002 1003
+    37 80020000 1002
+    38 80020000 1001
+    39 80020001 1002
+    40 80020002 1002
+    41 80020001 1001
+    42 80020002 1001
+    43 80020002 1003
+    44 00000000 1001
+    45 00000000 1002
+}
+AddGroup
+
+Param.h.v.=00010010
+AddParam
+
+Param.h.v.=00010011
+AddParam
+
+Param.h.v.=00010012
+AddParam
+
+Param.h.v.=00010020
+Param.val=1.00000000000000000000
+AddParam
+
+Param.h.v.=00010021
+AddParam
+
+Param.h.v.=00010022
+AddParam
+
+Param.h.v.=00010023
+AddParam
+
+Param.h.v.=00020010
+AddParam
+
+Param.h.v.=00020011
+AddParam
+
+Param.h.v.=00020012
+AddParam
+
+Param.h.v.=00020020
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020021
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020022
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00020023
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00030010
+AddParam
+
+Param.h.v.=00030011
+AddParam
+
+Param.h.v.=00030012
+AddParam
+
+Param.h.v.=00030020
+Param.val=0.50000000000000000000
+AddParam
+
+Param.h.v.=00030021
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00030022
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00030023
+Param.val=-0.50000000000000000000
+AddParam
+
+Param.h.v.=00040010
+Param.val=151.32672008031227051106
+AddParam
+
+Param.h.v.=00040011
+Param.val=235.14822743059835374879
+AddParam
+
+Param.h.v.=00040013
+Param.val=151.32672008031227051106
+AddParam
+
+Param.h.v.=00040014
+AddParam
+
+Param.h.v.=00050010
+AddParam
+
+Param.h.v.=00050011
+Param.val=235.14822743059835374879
+AddParam
+
+Param.h.v.=00050013
+Param.val=151.32672008031227051106
+AddParam
+
+Param.h.v.=00050014
+Param.val=235.14822743059835374879
+AddParam
+
+Param.h.v.=00060010
+AddParam
+
+Param.h.v.=00060011
+AddParam
+
+Param.h.v.=00060013
+AddParam
+
+Param.h.v.=00060014
+Param.val=235.14822743059835374879
+AddParam
+
+Param.h.v.=00070010
+Param.val=151.32672008031227051106
+AddParam
+
+Param.h.v.=00070011
+AddParam
+
+Param.h.v.=00070013
+AddParam
+
+Param.h.v.=00070014
+AddParam
+
+Param.h.v.=00080010
+Param.val=27.86987480301187858345
+AddParam
+
+Param.h.v.=00080011
+Param.val=23.62381135500723772225
+AddParam
+
+Param.h.v.=00080012
+Param.val=28.74919402043127547586
+AddParam
+
+Param.h.v.=00080013
+Param.val=28.61474487652662546111
+AddParam
+
+Param.h.v.=00080014
+Param.val=15.44853893873407457704
+AddParam
+
+Param.h.v.=00080015
+Param.val=20.64485331646491417246
+AddParam
+
+Param.h.v.=80050000
+Param.val=20.19873820065693337256
+AddParam
+
+Param.h.v.=80050001
+Param.val=14.00987869857234890958
+AddParam
+
+Param.h.v.=80050002
+Param.val=21.47344878737479945130
+AddParam
+
+Param.h.v.=80050003
+Param.val=0.91935835439439705929
+AddParam
+
+Param.h.v.=80050004
+Param.val=0.37937671573595416197
+AddParam
+
+Param.h.v.=80050005
+Param.val=0.07967422833967026385
+AddParam
+
+Param.h.v.=80050006
+Param.val=0.06712332754791990042
+AddParam
+
+Param.h.v.=80060000
+AddParam
+
+Param.h.v.=80060001
+AddParam
+
+Param.h.v.=80060002
+Param.val=1.00000000000000000000
+AddParam
+
+Request.h.v=00000001
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000002
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000003
+Request.type=100
+Request.group.v=00000001
+Request.construction=0
+AddRequest
+
+Request.h.v=00000004
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000005
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000006
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000007
+Request.type=200
+Request.workplane.v=80020000
+Request.group.v=00000002
+Request.construction=0
+AddRequest
+
+Request.h.v=00000008
+Request.type=200
+Request.group.v=00000005
+Request.construction=0
+AddRequest
+
+Entity.h.v=00010000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.normal.v=00010020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00010001
+Entity.type=2000
+Entity.construction=1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00010020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00010001
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.normal.v=00020020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020001
+Entity.type=2000
+Entity.construction=1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00020020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00020001
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=0.50000000000000000000
+Entity.actNormal.vy=0.50000000000000000000
+Entity.actNormal.vz=0.50000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.normal.v=00030020
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030001
+Entity.type=2000
+Entity.construction=1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00030020
+Entity.type=3000
+Entity.construction=0
+Entity.point[0].v=00030001
+Entity.actNormal.w=0.50000000000000000000
+Entity.actNormal.vx=-0.50000000000000000000
+Entity.actNormal.vy=-0.50000000000000000000
+Entity.actNormal.vz=-0.50000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00040001
+Entity.point[1].v=00040002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00040002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=151.32672008031227051106
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00050000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00050001
+Entity.point[1].v=00050002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00050001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00050002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00060001
+Entity.point[1].v=00060002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00060002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00070001
+Entity.point[1].v=00070002
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070001
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actPoint.x=151.32672008031227051106
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00070002
+Entity.type=2001
+Entity.construction=0
+Entity.workplane.v=80020000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080000
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=00080001
+Entity.point[1].v=00080002
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080001
+Entity.type=2000
+Entity.construction=0
+Entity.actPoint.x=27.86987480301187858345
+Entity.actPoint.y=23.62381135500723772225
+Entity.actPoint.z=28.74919402043127547586
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=00080002
+Entity.type=2000
+Entity.construction=0
+Entity.actPoint.x=28.61474487652662546111
+Entity.actPoint.y=15.44853893873407457704
+Entity.actPoint.z=20.64485331646491417246
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020000
+Entity.type=10000
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.normal.v=80020001
+Entity.actVisible=0
+AddEntity
+
+Entity.h.v=80020001
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80020002
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80020002
+Entity.type=2012
+Entity.construction=1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050002
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050003
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80050002
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050005
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050006
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80050005
+Entity.actNormal.w=0.19659204138542635265
+Entity.actNormal.vx=0.65564298546105082011
+Entity.actNormal.vy=0.34338959727301654468
+Entity.actNormal.vz=0.64309208466930045667
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050008
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050009
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80050008
+Entity.actNormal.w=0.72276631300897076216
+Entity.actNormal.vx=-0.27626626972509660263
+Entity.actNormal.vy=-0.26371536893334623919
+Entity.actNormal.vz=-0.57596875712138051462
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005000b
+Entity.point[1].v=8005000c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.04637961363100373546
+Entity.actPoint.y=19.66718836518691659876
+Entity.actPoint.z=25.37843851262332961483
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005000e
+Entity.point[1].v=8005000f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.04637961363100373546
+Entity.actPoint.y=19.66718836518691659876
+Entity.actPoint.z=25.37843851262332961483
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005000f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=19.80936196607155252991
+Entity.actPoint.y=18.49491719680919743496
+Entity.actPoint.z=25.98772537924823211597
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050010
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050011
+Entity.point[1].v=80050012
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050011
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050012
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.36837001593352169948
+Entity.actPoint.y=31.52146505557973910072
+Entity.actPoint.z=12.37181780905961225869
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050013
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050014
+Entity.point[1].v=80050015
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050014
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.36837001593352169948
+Entity.actPoint.y=31.52146505557973910072
+Entity.actPoint.z=12.37181780905961225869
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050015
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=112.96212766868266896836
+Entity.actPoint.y=36.05781425971861864355
+Entity.actPoint.z=16.94124289471412225794
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050016
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050017
+Entity.point[1].v=80050018
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050017
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=112.96212766868266896836
+Entity.actPoint.y=36.05781425971861864355
+Entity.actPoint.z=16.94124289471412225794
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050018
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.19913655789017070674
+Entity.actPoint.y=37.23008378193080858409
+Entity.actPoint.z=16.33195688368224907094
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050019
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005001a
+Entity.point[1].v=8005001b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.19913655789017070674
+Entity.actPoint.y=37.23008378193080858409
+Entity.actPoint.z=16.33195688368224907094
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.24585880500055168341
+Entity.actPoint.y=92.54139670698233999246
+Entity.actPoint.z=72.04656116714903646425
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001c
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005001d
+Entity.point[1].v=8005001e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.24585880500055168341
+Entity.actPoint.y=92.54139670698233999246
+Entity.actPoint.z=72.04656116714903646425
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.08344657235934960227
+Entity.actPoint.y=91.38314790984927071804
+Entity.actPoint.z=72.64855991915611355125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005001f
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050020
+Entity.point[1].v=80050021
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050020
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.08344657235934960227
+Entity.actPoint.y=91.38314790984927071804
+Entity.actPoint.z=72.64855991915611355125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050021
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=107.60523215571366506538
+Entity.actPoint.y=96.72318102810723416951
+Entity.actPoint.z=78.02752881919823835233
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050022
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050023
+Entity.point[1].v=80050024
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050023
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=107.60523215571366506538
+Entity.actPoint.y=96.72318102810723416951
+Entity.actPoint.z=78.02752881919823835233
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050024
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76769512194258027193
+Entity.actPoint.y=97.88143936081091567303
+Entity.actPoint.z=77.42552511108705459719
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050025
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050026
+Entity.point[1].v=80050027
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050026
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76769512194258027193
+Entity.actPoint.y=97.88143936081091567303
+Entity.actPoint.z=77.42552511108705459719
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050027
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.80482109154355896408
+Entity.actPoint.y=153.29991015883427962763
+Entity.actPoint.z=133.24806858769096606920
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050028
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050029
+Entity.point[1].v=8005002a
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050029
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.80482109154355896408
+Entity.actPoint.y=153.29991015883427962763
+Entity.actPoint.z=133.24806858769096606920
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.79144997127178839946
+Entity.actPoint.y=152.16967420514762920902
+Entity.actPoint.z=133.83550768996073543349
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002b
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005002c
+Entity.point[1].v=8005002d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.79144997127178839946
+Entity.actPoint.y=152.16967420514762920902
+Entity.actPoint.z=133.83550768996073543349
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.39480389994024278622
+Entity.actPoint.y=156.59886555407061337064
+Entity.actPoint.z=138.29699360036354960357
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002e
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005002f
+Entity.point[1].v=80050030
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005002f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.39480389994024278622
+Entity.actPoint.y=156.59886555407061337064
+Entity.actPoint.z=138.29699360036354960357
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050030
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.32516586096393673699
+Entity.actPoint.y=140.23379620812835355537
+Entity.actPoint.z=146.80272341174077155301
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050031
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050032
+Entity.point[1].v=80050033
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050032
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.32516586096393673699
+Entity.actPoint.y=140.23379620812835355537
+Entity.actPoint.z=146.80272341174077155301
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050033
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72661007025513768554
+Entity.actPoint.y=135.75102593159741104500
+Entity.actPoint.z=142.28726791371209969839
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050034
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050035
+Entity.point[1].v=80050036
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050035
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72661007025513768554
+Entity.actPoint.y=135.75102593159741104500
+Entity.actPoint.z=142.28726791371209969839
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050036
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.48960118104764482894
+Entity.actPoint.y=134.57875640938522110446
+Entity.actPoint.z=142.89655392474398354352
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050037
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050038
+Entity.point[1].v=80050039
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050038
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.48960118104764482894
+Entity.actPoint.y=134.57875640938522110446
+Entity.actPoint.z=142.89655392474398354352
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050039
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.45407458997149952040
+Entity.actPoint.y=79.14242597770386566935
+Entity.actPoint.z=87.05602059454085406287
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005003b
+Entity.point[1].v=8005003c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.45407458997149952040
+Entity.actPoint.y=79.14242597770386566935
+Entity.actPoint.z=87.05602059454085406287
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.56684027421469806995
+Entity.actPoint.y=80.29134351740187014457
+Entity.actPoint.z=86.45887175504347510469
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005003e
+Entity.point[1].v=8005003f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.56684027421469806995
+Entity.actPoint.y=80.29134351740187014457
+Entity.actPoint.z=86.45887175504347510469
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005003f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.03545841494108259440
+Entity.actPoint.y=75.05846825435978075802
+Entity.actPoint.z=81.18784203025302304013
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050040
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050041
+Entity.point[1].v=80050042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050041
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.03545841494108259440
+Entity.actPoint.y=75.05846825435978075802
+Entity.actPoint.z=81.18784203025302304013
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050042
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.99723017450244100246
+Entity.actPoint.y=73.92356031047731335093
+Entity.actPoint.z=81.77770939515016834775
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050043
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050044
+Entity.point[1].v=80050045
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050044
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.99723017450244100246
+Entity.actPoint.y=73.92356031047731335093
+Entity.actPoint.z=81.77770939515016834775
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050045
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=19.80936196607155252991
+Entity.actPoint.y=18.49491719680919743496
+Entity.actPoint.z=25.98772537924823211597
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050046
+Entity.type=13000
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=80050047
+Entity.normal.v=80050048
+Entity.distance.v=80050049
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050047
+Entity.type=2011
+Entity.construction=0
+Entity.style=00000100
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050048
+Entity.type=3011
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=80050047
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050049
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004a
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005004b
+Entity.normal.v=8005004c
+Entity.distance.v=8005004d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004c
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005004b
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004d
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004e
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005004f
+Entity.normal.v=80050050
+Entity.distance.v=80050051
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005004f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050050
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005004f
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050051
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050052
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050053
+Entity.normal.v=80050054
+Entity.distance.v=80050055
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050053
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050054
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050053
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050055
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050056
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050057
+Entity.point[1].v=80050058
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050057
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050058
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050059
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8005005a
+Entity.point[1].v=8005005b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005a
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005b
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005c
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8005005d
+Entity.point[1].v=8005005e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005d
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005e
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005005f
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050060
+Entity.point[1].v=80050061
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050060
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050061
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005008f
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80050090
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050090
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050111
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050112
+Entity.point[1].v=80050113
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050112
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050113
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.04637961363100373546
+Entity.actPoint.y=19.66718836518691659876
+Entity.actPoint.z=25.37843851262332961483
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050114
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050115
+Entity.point[1].v=80050116
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050115
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.84268060295580937691
+Entity.actPoint.y=13.81067747366163622758
+Entity.actPoint.z=22.26188431417817881197
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050116
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44123639366461020472
+Entity.actPoint.y=18.29344775019257340887
+Entity.actPoint.z=26.77733981220684711388
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050117
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actNormal.vx=-0.97829295247474556962
+Entity.actNormal.vy=-0.18387387806446464644
+Entity.actNormal.vz=0.09556827979920828886
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050118
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050115
+Entity.point[1].v=80050112
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050119
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050116
+Entity.point[1].v=80050113
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005011b
+Entity.point[1].v=8005011c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.04637961363100373546
+Entity.actPoint.y=19.66718836518691659876
+Entity.actPoint.z=25.37843851262332961483
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=19.80936196607155252991
+Entity.actPoint.y=18.49491719680919743496
+Entity.actPoint.z=25.98772537924823211597
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005011e
+Entity.point[1].v=8005011f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44123639366461020472
+Entity.actPoint.y=18.29344775019257340887
+Entity.actPoint.z=26.77733981220684711388
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005011f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.20421874610515899917
+Entity.actPoint.y=17.12117658181485069235
+Entity.actPoint.z=27.38662667883174961503
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050120
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.04637961363100373546
+Entity.actPoint.y=19.66718836518691659876
+Entity.actPoint.z=25.37843851262332961483
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050121
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005011e
+Entity.point[1].v=8005011b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050122
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005011f
+Entity.point[1].v=8005011c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050123
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050124
+Entity.point[1].v=80050125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050124
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050125
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.36837001593352169948
+Entity.actPoint.y=31.52146505557973910072
+Entity.actPoint.z=12.37181780905961225869
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050126
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050127
+Entity.point[1].v=80050128
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050127
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.84268060295580937691
+Entity.actPoint.y=13.81067747366163622758
+Entity.actPoint.z=22.26188431417817881197
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050128
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76322679596712816874
+Entity.actPoint.y=30.14772444058539235812
+Entity.actPoint.z=13.77071910864312798140
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050129
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=26.44782382292220646036
+Entity.actPoint.y=15.18441808865598119382
+Entity.actPoint.z=20.86298301459466131291
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050127
+Entity.point[1].v=80050124
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012b
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050128
+Entity.point[1].v=80050125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012c
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005012d
+Entity.point[1].v=8005012e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.36837001593352169948
+Entity.actPoint.y=31.52146505557973910072
+Entity.actPoint.z=12.37181780905961225869
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=112.96212766868266896836
+Entity.actPoint.y=36.05781425971861864355
+Entity.actPoint.z=16.94124289471412225794
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005012f
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050130
+Entity.point[1].v=80050131
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050130
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76322679596712816874
+Entity.actPoint.y=30.14772444058539235812
+Entity.actPoint.z=13.77071910864312798140
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050131
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.35698444871627543762
+Entity.actPoint.y=34.68407364472427190094
+Entity.actPoint.z=18.34014419429763620428
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050132
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.36837001593352169948
+Entity.actPoint.y=31.52146505557973910072
+Entity.actPoint.z=12.37181780905961225869
+Entity.actNormal.vx=-0.97829295247474568065
+Entity.actNormal.vy=-0.18387387806446467420
+Entity.actNormal.vz=0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050133
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050130
+Entity.point[1].v=8005012d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050134
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050131
+Entity.point[1].v=8005012e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050135
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050136
+Entity.point[1].v=80050137
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050136
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=112.96212766868266896836
+Entity.actPoint.y=36.05781425971861864355
+Entity.actPoint.z=16.94124289471412225794
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050137
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.19913655789017070674
+Entity.actPoint.y=37.23008378193080858409
+Entity.actPoint.z=16.33195688368224907094
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050138
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050139
+Entity.point[1].v=8005013a
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050139
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.35698444871627543762
+Entity.actPoint.y=34.68407364472427190094
+Entity.actPoint.z=18.34014419429763620428
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.59399333792377717600
+Entity.actPoint.y=35.85634316693646184149
+Entity.actPoint.z=17.73085818326576657000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013b
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=112.96212766868266896836
+Entity.actPoint.y=36.05781425971861864355
+Entity.actPoint.z=16.94124289471412225794
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013c
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050139
+Entity.point[1].v=80050136
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005013a
+Entity.point[1].v=80050137
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013e
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005013f
+Entity.point[1].v=80050140
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005013f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.19913655789017070674
+Entity.actPoint.y=37.23008378193080858409
+Entity.actPoint.z=16.33195688368224907094
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050140
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.24585880500055168341
+Entity.actPoint.y=92.54139670698233999246
+Entity.actPoint.z=72.04656116714903646425
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050141
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050142
+Entity.point[1].v=80050143
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050142
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.59399333792377717600
+Entity.actPoint.y=35.85634316693646184149
+Entity.actPoint.z=17.73085818326576657000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050143
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.64071558503415815267
+Entity.actPoint.y=91.16765609198799324986
+Entity.actPoint.z=73.44546246673255041060
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050144
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=119.19913655789017070674
+Entity.actPoint.y=37.23008378193080858409
+Entity.actPoint.z=16.33195688368224907094
+Entity.actNormal.vx=-0.97829295247474568065
+Entity.actNormal.vy=-0.18387387806446467420
+Entity.actNormal.vz=0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050145
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050142
+Entity.point[1].v=8005013f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050146
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050143
+Entity.point[1].v=80050140
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050147
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050148
+Entity.point[1].v=80050149
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050148
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.24585880500055168341
+Entity.actPoint.y=92.54139670698233999246
+Entity.actPoint.z=72.04656116714903646425
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050149
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.08344657235934960227
+Entity.actPoint.y=91.38314790984927071804
+Entity.actPoint.z=72.64855991915611355125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005014b
+Entity.point[1].v=8005014c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.64071558503415815267
+Entity.actPoint.y=91.16765609198799324986
+Entity.actPoint.z=73.44546246673255041060
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.47830335239295607153
+Entity.actPoint.y=90.00940729485492397544
+Entity.actPoint.z=74.04746121873962749760
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014d
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.24585880500055168341
+Entity.actPoint.y=92.54139670698233999246
+Entity.actPoint.z=72.04656116714903646425
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014e
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005014b
+Entity.point[1].v=80050148
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005014f
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005014c
+Entity.point[1].v=80050149
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050150
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050151
+Entity.point[1].v=80050152
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050151
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.08344657235934960227
+Entity.actPoint.y=91.38314790984927071804
+Entity.actPoint.z=72.64855991915611355125
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050152
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=107.60523215571366506538
+Entity.actPoint.y=96.72318102810723416951
+Entity.actPoint.z=78.02752881919823835233
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050153
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050154
+Entity.point[1].v=80050155
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050154
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.47830335239295607153
+Entity.actPoint.y=90.00940729485492397544
+Entity.actPoint.z=74.04746121873962749760
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050155
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.00008893574727153464
+Entity.actPoint.y=95.34944041311288742691
+Entity.actPoint.z=79.42643011878175229867
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050156
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.08344657235934960227
+Entity.actPoint.y=91.38314790984927071804
+Entity.actPoint.z=72.64855991915611355125
+Entity.actNormal.vx=-0.97829295247474568065
+Entity.actNormal.vy=-0.18387387806446467420
+Entity.actNormal.vz=0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050157
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050154
+Entity.point[1].v=80050151
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050158
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050155
+Entity.point[1].v=80050152
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050159
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005015a
+Entity.point[1].v=8005015b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=107.60523215571366506538
+Entity.actPoint.y=96.72318102810723416951
+Entity.actPoint.z=78.02752881919823835233
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76769512194258027193
+Entity.actPoint.y=97.88143936081091567303
+Entity.actPoint.z=77.42552511108705459719
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015c
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005015d
+Entity.point[1].v=8005015e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.00008893574727153464
+Entity.actPoint.y=95.34944041311288742691
+Entity.actPoint.z=79.42643011878175229867
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.16255190197618674119
+Entity.actPoint.y=96.50769874581656893042
+Entity.actPoint.z=78.82442641067056854354
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005015f
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=107.60523215571366506538
+Entity.actPoint.y=96.72318102810723416951
+Entity.actPoint.z=78.02752881919823835233
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050160
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005015d
+Entity.point[1].v=8005015a
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050161
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005015e
+Entity.point[1].v=8005015b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050162
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050163
+Entity.point[1].v=80050164
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050163
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76769512194258027193
+Entity.actPoint.y=97.88143936081091567303
+Entity.actPoint.z=77.42552511108705459719
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050164
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.80482109154355896408
+Entity.actPoint.y=153.29991015883427962763
+Entity.actPoint.z=133.24806858769096606920
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050165
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050166
+Entity.point[1].v=80050167
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050166
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=114.16255190197618674119
+Entity.actPoint.y=96.50769874581656893042
+Entity.actPoint.z=78.82442641067056854354
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050167
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=109.19967787157716543334
+Entity.actPoint.y=151.92616954383993288502
+Entity.actPoint.z=134.64696988727448001555
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050168
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=113.76769512194258027193
+Entity.actPoint.y=97.88143936081091567303
+Entity.actPoint.z=77.42552511108705459719
+Entity.actNormal.vx=-0.97829295247474568065
+Entity.actNormal.vy=-0.18387387806446467420
+Entity.actNormal.vz=0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050169
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050166
+Entity.point[1].v=80050163
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016a
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050167
+Entity.point[1].v=80050164
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016b
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005016c
+Entity.point[1].v=8005016d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.80482109154355896408
+Entity.actPoint.y=153.29991015883427962763
+Entity.actPoint.z=133.24806858769096606920
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.79144997127178839946
+Entity.actPoint.y=152.16967420514762920902
+Entity.actPoint.z=133.83550768996073543349
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016e
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005016f
+Entity.point[1].v=80050170
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005016f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=109.19967787157716543334
+Entity.actPoint.y=151.92616954383993288502
+Entity.actPoint.z=134.64696988727448001555
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050170
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=103.18630675130539486872
+Entity.actPoint.y=150.79593359015328246642
+Entity.actPoint.z=135.23440898954424937983
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050171
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=108.80482109154355896408
+Entity.actPoint.y=153.29991015883427962763
+Entity.actPoint.z=133.24806858769096606920
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050172
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005016f
+Entity.point[1].v=8005016c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050173
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050170
+Entity.point[1].v=8005016d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050174
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050175
+Entity.point[1].v=80050176
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050175
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.79144997127178839946
+Entity.actPoint.y=152.16967420514762920902
+Entity.actPoint.z=133.83550768996073543349
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050176
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.39480389994024278622
+Entity.actPoint.y=156.59886555407061337064
+Entity.actPoint.z=138.29699360036354960357
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050177
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050178
+Entity.point[1].v=80050179
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050178
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=103.18630675130539486872
+Entity.actPoint.y=150.79593359015328246642
+Entity.actPoint.z=135.23440898954424937983
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050179
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.78966067997384925548
+Entity.actPoint.y=155.22512493907626662804
+Entity.actPoint.z=139.69589489994706354992
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017a
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.79144997127178839946
+Entity.actPoint.y=152.16967420514762920902
+Entity.actPoint.z=133.83550768996073543349
+Entity.actNormal.vx=-0.97829295247474568065
+Entity.actNormal.vy=-0.18387387806446467420
+Entity.actNormal.vz=0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017b
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050178
+Entity.point[1].v=80050175
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017c
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050179
+Entity.point[1].v=80050176
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005017e
+Entity.point[1].v=8005017f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017e
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.39480389994024278622
+Entity.actPoint.y=156.59886555407061337064
+Entity.actPoint.z=138.29699360036354960357
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005017f
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.32516586096393673699
+Entity.actPoint.y=140.23379620812835355537
+Entity.actPoint.z=146.80272341174077155301
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050180
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050181
+Entity.point[1].v=80050182
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050181
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.78966067997384925548
+Entity.actPoint.y=155.22512493907626662804
+Entity.actPoint.z=139.69589489994706354992
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050182
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72002264099754142990
+Entity.actPoint.y=138.86005559313400681276
+Entity.actPoint.z=148.20162471132428549936
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050183
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=102.39480389994024278622
+Entity.actPoint.y=156.59886555407061337064
+Entity.actPoint.z=138.29699360036354960357
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050184
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050181
+Entity.point[1].v=8005017e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050185
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050182
+Entity.point[1].v=8005017f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050186
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050187
+Entity.point[1].v=80050188
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050187
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.32516586096393673699
+Entity.actPoint.y=140.23379620812835355537
+Entity.actPoint.z=146.80272341174077155301
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050188
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72661007025513768554
+Entity.actPoint.y=135.75102593159741104500
+Entity.actPoint.z=142.28726791371209969839
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050189
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005018a
+Entity.point[1].v=8005018b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72002264099754142990
+Entity.actPoint.y=138.86005559313400681276
+Entity.actPoint.z=148.20162471132428549936
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018b
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=16.12146685028874060208
+Entity.actPoint.y=134.37728531660306430240
+Entity.actPoint.z=143.68616921329561364473
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018c
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.32516586096393673699
+Entity.actPoint.y=140.23379620812835355537
+Entity.actPoint.z=146.80272341174077155301
+Entity.actNormal.vx=0.97829295247474568065
+Entity.actNormal.vy=0.18387387806446467420
+Entity.actNormal.vz=-0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018d
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005018a
+Entity.point[1].v=80050187
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018e
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005018b
+Entity.point[1].v=80050188
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005018f
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050190
+Entity.point[1].v=80050191
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050190
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72661007025513768554
+Entity.actPoint.y=135.75102593159741104500
+Entity.actPoint.z=142.28726791371209969839
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050191
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.48960118104764482894
+Entity.actPoint.y=134.57875640938522110446
+Entity.actPoint.z=142.89655392474398354352
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050192
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050193
+Entity.point[1].v=80050194
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050193
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=16.12146685028874060208
+Entity.actPoint.y=134.37728531660306430240
+Entity.actPoint.z=143.68616921329561364473
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050194
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.88445796108124952184
+Entity.actPoint.y=133.20501579439087436185
+Entity.actPoint.z=144.29545522432749748987
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050195
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.72661007025513768554
+Entity.actPoint.y=135.75102593159741104500
+Entity.actPoint.z=142.28726791371209969839
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050196
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050193
+Entity.point[1].v=80050190
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050197
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050194
+Entity.point[1].v=80050191
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050198
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=80050199
+Entity.point[1].v=8005019a
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050199
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.48960118104764482894
+Entity.actPoint.y=134.57875640938522110446
+Entity.actPoint.z=142.89655392474398354352
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019a
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.45407458997149952040
+Entity.actPoint.y=79.14242597770386566935
+Entity.actPoint.z=87.05602059454085406287
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019b
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005019c
+Entity.point[1].v=8005019d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019c
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.88445796108124952184
+Entity.actPoint.y=133.20501579439087436185
+Entity.actPoint.z=144.29545522432749748987
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019d
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.84893137000510421331
+Entity.actPoint.y=77.76868536270951892675
+Entity.actPoint.z=88.45492189412436800922
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019e
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=9.48960118104764482894
+Entity.actPoint.y=134.57875640938522110446
+Entity.actPoint.z=142.89655392474398354352
+Entity.actNormal.vx=0.97829295247474568065
+Entity.actNormal.vy=0.18387387806446467420
+Entity.actNormal.vz=-0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005019f
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005019c
+Entity.point[1].v=80050199
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a0
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=8005019d
+Entity.point[1].v=8005019a
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a1
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501a2
+Entity.point[1].v=800501a3
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a2
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.45407458997149952040
+Entity.actPoint.y=79.14242597770386566935
+Entity.actPoint.z=87.05602059454085406287
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a3
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.56684027421469806995
+Entity.actPoint.y=80.29134351740187014457
+Entity.actPoint.z=86.45887175504347510469
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a4
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501a5
+Entity.point[1].v=800501a6
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a5
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.84893137000510421331
+Entity.actPoint.y=77.76868536270951892675
+Entity.actPoint.z=88.45492189412436800922
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a6
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.96169705424830453921
+Entity.actPoint.y=78.91760290240752340196
+Entity.actPoint.z=87.85777305462698905103
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a7
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.45407458997149952040
+Entity.actPoint.y=79.14242597770386566935
+Entity.actPoint.z=87.05602059454085406287
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a8
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501a5
+Entity.point[1].v=800501a2
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501a9
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501a6
+Entity.point[1].v=800501a3
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501aa
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501ab
+Entity.point[1].v=800501ac
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ab
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.56684027421469806995
+Entity.actPoint.y=80.29134351740187014457
+Entity.actPoint.z=86.45887175504347510469
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ac
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.03545841494108259440
+Entity.actPoint.y=75.05846825435978075802
+Entity.actPoint.z=81.18784203025302304013
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ad
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501ae
+Entity.point[1].v=800501af
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ae
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.96169705424830453921
+Entity.actPoint.y=78.91760290240752340196
+Entity.actPoint.z=87.85777305462698905103
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501af
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.43031519497468551094
+Entity.actPoint.y=73.68472763936543401542
+Entity.actPoint.z=82.58674332983653698648
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b0
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.56684027421469806995
+Entity.actPoint.y=80.29134351740187014457
+Entity.actPoint.z=86.45887175504347510469
+Entity.actNormal.vx=0.97829295247474568065
+Entity.actNormal.vy=0.18387387806446467420
+Entity.actNormal.vz=-0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b1
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501ae
+Entity.point[1].v=800501ab
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b2
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501af
+Entity.point[1].v=800501ac
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b3
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501b4
+Entity.point[1].v=800501b5
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b4
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.03545841494108259440
+Entity.actPoint.y=75.05846825435978075802
+Entity.actPoint.z=81.18784203025302304013
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b5
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.99723017450244100246
+Entity.actPoint.y=73.92356031047731335093
+Entity.actPoint.z=81.77770939515016834775
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b6
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501b7
+Entity.point[1].v=800501b8
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b7
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.43031519497468551094
+Entity.actPoint.y=73.68472763936543401542
+Entity.actPoint.z=82.58674332983653698648
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b8
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.39208695453604747172
+Entity.actPoint.y=72.54981969548296660832
+Entity.actPoint.z=83.17661069473368229410
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501b9
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=21.03545841494108259440
+Entity.actPoint.y=75.05846825435978075802
+Entity.actPoint.z=81.18784203025302304013
+Entity.actNormal.vx=0.06296768975926229917
+Entity.actNormal.vy=-0.70313553291259145439
+Entity.actNormal.vz=-0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ba
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501b7
+Entity.point[1].v=800501b4
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501bb
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501b8
+Entity.point[1].v=800501b5
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501bc
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501bd
+Entity.point[1].v=800501be
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501bd
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.99723017450244100246
+Entity.actPoint.y=73.92356031047731335093
+Entity.actPoint.z=81.77770939515016834775
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501be
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=19.80936196607155252991
+Entity.actPoint.y=18.49491719680919743496
+Entity.actPoint.z=25.98772537924823211597
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501bf
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501c0
+Entity.point[1].v=800501c1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c0
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=15.39208695453604747172
+Entity.actPoint.y=72.54981969548296660832
+Entity.actPoint.z=83.17661069473368229410
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c1
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=20.20421874610515899917
+Entity.actPoint.y=17.12117658181485069235
+Entity.actPoint.z=27.38662667883174961503
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c2
+Entity.type=5002
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=14.99723017450244100246
+Entity.actPoint.y=73.92356031047731335093
+Entity.actPoint.z=81.77770939515016834775
+Entity.actNormal.vx=0.97841295701449226829
+Entity.actNormal.vy=0.18251304102837276333
+Entity.actNormal.vz=-0.09693851350589827165
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c3
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501c0
+Entity.point[1].v=800501bd
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c4
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501c1
+Entity.point[1].v=800501be
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c5
+Entity.type=13000
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=800501c6
+Entity.normal.v=800501c7
+Entity.distance.v=800501c8
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c6
+Entity.type=2011
+Entity.construction=0
+Entity.style=00000100
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c7
+Entity.type=3011
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=800501c6
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c8
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501c9
+Entity.type=13000
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=800501ca
+Entity.normal.v=800501cb
+Entity.distance.v=800501cc
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ca
+Entity.type=2011
+Entity.construction=0
+Entity.style=00000100
+Entity.actPoint.x=28.26473158304548505271
+Entity.actPoint.y=22.25007074001289453236
+Entity.actPoint.z=30.14809532001479652763
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501cb
+Entity.type=3011
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=800501ca
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501cc
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501cd
+Entity.type=11000
+Entity.construction=0
+Entity.style=00000100
+Entity.point[0].v=800501ca
+Entity.point[1].v=800501c6
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ce
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501cf
+Entity.normal.v=800501d0
+Entity.distance.v=800501d1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501cf
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d0
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501cf
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d1
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d2
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501d3
+Entity.normal.v=800501d4
+Entity.distance.v=800501d5
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d3
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=110.21554957749292213975
+Entity.actPoint.y=37.65303840637064780594
+Entity.actPoint.z=22.14241697585895707334
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d4
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501d3
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d5
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d6
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501d3
+Entity.point[1].v=800501cf
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d7
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501d8
+Entity.normal.v=800501d9
+Entity.distance.v=800501da
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d8
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501d9
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501d8
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501da
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501db
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501dc
+Entity.normal.v=800501dd
+Entity.distance.v=800501de
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501dc
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=100.45933520180618359063
+Entity.actPoint.y=146.59686373146789151178
+Entity.actPoint.z=131.88058438005037942276
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501dd
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501dc
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501de
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501df
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501dc
+Entity.point[1].v=800501d8
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e0
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501e1
+Entity.normal.v=800501e2
+Entity.distance.v=800501e3
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e1
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e2
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501e1
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e3
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e4
+Entity.type=13000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501e5
+Entity.normal.v=800501e6
+Entity.distance.v=800501e7
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e5
+Entity.type=2011
+Entity.construction=1
+Entity.style=00000100
+Entity.actPoint.x=18.50851720735873584545
+Entity.actPoint.y=131.19389606511015244905
+Entity.actPoint.z=139.88626272420620466619
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e6
+Entity.type=3011
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501e5
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e7
+Entity.type=4001
+Entity.construction=0
+Entity.style=00000100
+Entity.actDistance=1.60000000000000008882
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e8
+Entity.type=11000
+Entity.construction=1
+Entity.style=00000100
+Entity.point[0].v=800501e5
+Entity.point[1].v=800501e1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501e9
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ea
+Entity.point[1].v=800501eb
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ea
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501eb
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ec
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ed
+Entity.point[1].v=800501ee
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ed
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.50851720735873584545
+Entity.actPoint.y=131.19389606511015244905
+Entity.actPoint.z=139.88626272420620466619
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ee
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=28.26473158304548505271
+Entity.actPoint.y=22.25007074001289453236
+Entity.actPoint.z=30.14809532001479652763
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ef
+Entity.type=5002
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actNormal.vx=0.97829295247474568065
+Entity.actNormal.vy=0.18387387806446467420
+Entity.actNormal.vz=-0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f0
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ed
+Entity.point[1].v=800501ea
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f1
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ee
+Entity.point[1].v=800501eb
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f2
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501f3
+Entity.point[1].v=800501f4
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f3
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f4
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f5
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501f6
+Entity.point[1].v=800501f7
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f6
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=28.26473158304548505271
+Entity.actPoint.y=22.25007074001289453236
+Entity.actPoint.z=30.14809532001479652763
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f7
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=110.21554957749292213975
+Entity.actPoint.y=37.65303840637064780594
+Entity.actPoint.z=22.14241697585895707334
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f8
+Entity.type=5002
+Entity.construction=1
+Entity.actPoint.x=27.86987480301188213616
+Entity.actPoint.y=23.62381135500724127496
+Entity.actPoint.z=28.74919402043127902857
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501f9
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501f6
+Entity.point[1].v=800501f3
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501fa
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501f7
+Entity.point[1].v=800501f4
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501fb
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501fc
+Entity.point[1].v=800501fd
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501fc
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501fd
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=109.82069279745931567049
+Entity.actPoint.y=39.02677902136499454855
+Entity.actPoint.z=20.74351567627544312700
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501fe
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ff
+Entity.point[1].v=80050200
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=800501ff
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.45933520180618359063
+Entity.actPoint.y=146.59686373146789151178
+Entity.actPoint.z=131.88058438005037942276
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050200
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=110.21554957749292213975
+Entity.actPoint.y=37.65303840637064780594
+Entity.actPoint.z=22.14241697585895707334
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050201
+Entity.type=5002
+Entity.construction=1
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actNormal.vx=0.97829295247474568065
+Entity.actNormal.vy=0.18387387806446467420
+Entity.actNormal.vz=-0.09556827979920830274
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050202
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=800501ff
+Entity.point[1].v=800501fc
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050203
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050200
+Entity.point[1].v=800501fd
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050204
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050205
+Entity.point[1].v=80050206
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050205
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050206
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.06447842177257712137
+Entity.actPoint.y=147.97060434646223825439
+Entity.actPoint.z=130.48168308046686547641
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050207
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050208
+Entity.point[1].v=80050209
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050208
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=18.50851720735873584545
+Entity.actPoint.y=131.19389606511015244905
+Entity.actPoint.z=139.88626272420620466619
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050209
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=100.45933520180618359063
+Entity.actPoint.y=146.59686373146789151178
+Entity.actPoint.z=131.88058438005037942276
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020a
+Entity.type=5002
+Entity.construction=1
+Entity.actPoint.x=18.11366042732512937619
+Entity.actPoint.y=132.56763668010449919166
+Entity.actPoint.z=138.48736142462269071984
+Entity.actNormal.vx=-0.06296768975926229917
+Entity.actNormal.vy=0.70313553291259145439
+Entity.actNormal.vz=0.70826230480105845100
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020b
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050208
+Entity.point[1].v=80050205
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020c
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050209
+Entity.point[1].v=80050206
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020d
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=8005020e
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020e
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8005020f
+Entity.type=3011
+Entity.construction=0
+Entity.point[0].v=80050210
+Entity.actNormal.w=0.91935835439439705929
+Entity.actNormal.vx=0.37937671573595416197
+Entity.actNormal.vy=0.07967422833967026385
+Entity.actNormal.vz=0.06712332754791990042
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050210
+Entity.type=2011
+Entity.construction=1
+Entity.actPoint.x=20.59359498069053984182
+Entity.actPoint.y=12.63613808357800394333
+Entity.actPoint.z=22.87235008695831695036
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050211
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=80050210
+Entity.point[1].v=8005020e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050212
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=20.59359498069053984182
+Entity.actPoint.y=12.63613808357800394333
+Entity.actPoint.z=22.87235008695831695036
+Entity.actNormal.vx=0.19742839001680245747
+Entity.actNormal.vy=-0.68687030749717259415
+Entity.actNormal.vz=0.69945064979175830544
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80050213
+Entity.type=5002
+Entity.construction=0
+Entity.actPoint.x=20.19873820065693337256
+Entity.actPoint.y=14.00987869857234890958
+Entity.actPoint.z=21.47344878737479945130
+Entity.actNormal.vx=0.19742839001680245747
+Entity.actNormal.vy=-0.68687030749717259415
+Entity.actNormal.vz=0.69945064979175830544
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060001
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060002
+Entity.point[1].v=80060003
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060002
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060003
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060004
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060005
+Entity.point[1].v=80060006
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060005
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060006
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060007
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actNormal.vx=0.99999999999999988898
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060008
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060005
+Entity.point[1].v=80060002
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060009
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060006
+Entity.point[1].v=80060003
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8006000b
+Entity.point[1].v=8006000c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000b
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000c
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000d
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8006000e
+Entity.point[1].v=8006000f
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000e
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.y=235.14822743059835374879
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006000f
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.y=235.14822743059835374879
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060010
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.y=235.14822743059835374879
+Entity.actNormal.vy=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060011
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8006000e
+Entity.point[1].v=8006000b
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060012
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8006000f
+Entity.point[1].v=8006000c
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060013
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060014
+Entity.point[1].v=80060015
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060014
+Entity.type=2010
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060015
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.y=235.14822743059835374879
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060016
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060017
+Entity.point[1].v=80060018
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060017
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060018
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.y=235.14822743059835374879
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060019
+Entity.type=5001
+Entity.construction=0
+Entity.actNormal.vx=-0.99999999999999988898
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001a
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060017
+Entity.point[1].v=80060014
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001b
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060018
+Entity.point[1].v=80060015
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001c
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=8006001d
+Entity.point[1].v=8006001e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001d
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001e
+Entity.type=2010
+Entity.construction=0
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006001f
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060020
+Entity.point[1].v=80060021
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060020
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060021
+Entity.type=2010
+Entity.construction=0
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060022
+Entity.type=5001
+Entity.construction=0
+Entity.actPoint.x=151.32672008031227051106
+Entity.actNormal.vy=-1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060023
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060020
+Entity.point[1].v=8006001d
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060024
+Entity.type=11000
+Entity.construction=0
+Entity.point[0].v=80060021
+Entity.point[1].v=8006001e
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060027
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=80060028
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060028
+Entity.type=2010
+Entity.construction=1
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=80060029
+Entity.type=3010
+Entity.construction=0
+Entity.point[0].v=8006002a
+Entity.actNormal.w=1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006002a
+Entity.type=2010
+Entity.construction=1
+Entity.actPoint.z=2.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006002b
+Entity.type=11000
+Entity.construction=1
+Entity.point[0].v=8006002a
+Entity.point[1].v=80060028
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006002c
+Entity.type=5000
+Entity.construction=0
+Entity.point[0].v=8006002a
+Entity.actPoint.z=2.00000000000000000000
+Entity.actNormal.vz=-1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Entity.h.v=8006002d
+Entity.type=5000
+Entity.construction=0
+Entity.point[0].v=80060028
+Entity.actNormal.vz=-1.00000000000000000000
+Entity.actVisible=1
+AddEntity
+
+Constraint.h.v=00000001
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00040001
+Constraint.ptB.v=00050002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000002
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00050001
+Constraint.ptB.v=00060002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000003
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00060001
+Constraint.ptB.v=00070002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000004
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=00070001
+Constraint.ptB.v=00040002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000005
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00040000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000006
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00050000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000007
+Constraint.type=81
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00060000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000008
+Constraint.type=80
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.entityA.v=00070000
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=00000009
+Constraint.type=20
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.ptA.v=80020002
+Constraint.ptB.v=00060001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000000a
+Constraint.type=30
+Constraint.group.v=00000006
+Constraint.valA=2.00000000000000000000
+Constraint.ptA.v=80060021
+Constraint.ptB.v=8006001e
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.disp.offset.x=-15.84429385129617884331
+Constraint.disp.offset.y=15.42351757885115581814
+AddConstraint
+
+Constraint.h.v=0000000b
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=235.14822743059835374879
+Constraint.ptA.v=00060001
+Constraint.ptB.v=00060002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.disp.offset.x=-55.80757728269797723897
+Constraint.disp.offset.y=17.31358332517262255124
+Constraint.disp.offset.z=32.28243257497679508106
+AddConstraint
+
+Constraint.h.v=0000000c
+Constraint.type=30
+Constraint.group.v=00000002
+Constraint.workplane.v=80020000
+Constraint.valA=151.32672008031227051106
+Constraint.ptA.v=00070001
+Constraint.ptB.v=00070002
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+Constraint.disp.offset.x=3.41084040588614634260
+Constraint.disp.offset.y=-56.42613181861258198069
+Constraint.disp.offset.z=22.56191899496188213448
+AddConstraint
+
+Constraint.h.v=0000000d
+Constraint.type=20
+Constraint.group.v=00000005
+Constraint.ptA.v=800501f3
+Constraint.ptB.v=00080001
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Constraint.h.v=0000000e
+Constraint.type=122
+Constraint.group.v=00000005
+Constraint.entityA.v=00080000
+Constraint.entityB.v=800501f2
+Constraint.other=0
+Constraint.other2=0
+Constraint.reference=0
+AddConstraint
+
+Style.h.v=00000100
+Style.name=@dxf
+Style.width=1.50000000000000000000
+Style.textHeight=11.50000000000000000000
+Style.textHeightAs=1
+Style.textOrigin=00000005
+Style.color=00ffffff
+Style.fillColor=004c4c4c
+Style.filled=0
+Style.visible=1
+Style.exportable=1
+Style.stippleScale=15.00000000000000000000
+AddStyle
+
+Surface 00000001 00ff00ff 8006002d 1 1
+SCtrl 0 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 0000000a 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000  151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+TrimBy 00000004 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000  0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+TrimBy 00000007 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+TrimBy 00000001 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000  0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+AddSurface
+Surface 00000002 00ff00ff 8006002c 1 1
+SCtrl 0 0 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 0000000b 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000  151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+TrimBy 00000002 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000  151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+TrimBy 00000005 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000  0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+TrimBy 00000008 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000  0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+AddSurface
+Surface 00000003 00ff00ff 80060010 1 1
+SCtrl 0 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 00000002 0 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000  0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+TrimBy 00000001 1 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000  151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+TrimBy 0000000c 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000  151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+TrimBy 00000003 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000  0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+AddSurface
+Surface 00000004 00ff00ff 80060019 1 1
+SCtrl 0 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 00000005 0 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000  0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+TrimBy 00000004 1 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+TrimBy 00000003 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000  0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+TrimBy 00000006 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000  0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+AddSurface
+Surface 00000005 00ff00ff 80060022 1 1
+SCtrl 0 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 00000008 0 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000  151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+TrimBy 00000007 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000  0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+TrimBy 00000006 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000  0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+TrimBy 00000009 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000  151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+AddSurface
+Surface 00000006 00ff00ff 80060007 1 1
+SCtrl 0 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 0 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+SCtrl 1 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+TrimBy 0000000b 0 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000  151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+TrimBy 0000000a 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000  151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+TrimBy 00000009 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000  151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+TrimBy 0000000c 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000  151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+AddSurface
+Surface 00000007 00646464 80050213 1 1
+SCtrl 0 0 26.40535438266710599464 22.20459629744394902673 27.76888358042831939088 Weight 1.00000000000000000000
+SCtrl 0 1 29.53589183058629430434 22.79299270725023518480 27.46306508507085197834 Weight 1.00000000000000000000
+SCtrl 1 0 26.20385777543746996798 24.45463000276424025969 30.03532295579170607880 Weight 1.00000000000000000000
+SCtrl 1 1 29.33439522335665117225 25.04302641257052997048 29.72950446043423866627 Weight 1.00000000000000000000
+TrimBy 00000016 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097  29.43514352697147273830 23.91800955991038080128 28.59628477275254709866
+TrimBy 0000000d 0 29.43514352697147273830 23.91800955991038080128 28.59628477275254709866  27.76912649939706057012 24.74882820766738333873 29.88241370811297059618
+TrimBy 00000010 0 27.76912649939706057012 24.74882820766738333873 29.88241370811297059618  26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+TrimBy 00000013 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848  27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+AddSurface
+Surface 00000008 00646464 80050212 1 1
+SCtrl 0 0 29.93074861061989722089 21.41925209225589199491 28.86196638465436947740 Weight 1.00000000000000000000
+SCtrl 0 1 26.80021116270071246390 20.83085568244960583684 29.16778488001183688993 Weight 1.00000000000000000000
+SCtrl 1 0 29.72925200339025764151 23.66928579757618678059 31.12840576001775616533 Weight 1.00000000000000000000
+SCtrl 1 1 26.59871455547107288453 23.08088938776989706980 31.43422425537522357786 Weight 1.00000000000000000000
+TrimBy 00000011 1 26.69946285908589445057 21.95587253510975145332 30.30100456769352845754  28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+TrimBy 0000000e 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523  29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+TrimBy 00000017 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501  28.36547988666030661875 21.12505388735274891587 29.01487563233310140731
+TrimBy 00000014 1 28.36547988666030661875 21.12505388735274891587 29.01487563233310140731  26.69946285908589445057 21.95587253510975145332 30.30100456769352845754
+AddSurface
+Surface 00000009 00646464 00000000 2 1
+SCtrl 0 0 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866 Weight 1.00000000000000000000
+SCtrl 0 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501 Weight 1.00000000000000000000
+SCtrl 1 0 29.33439522335665117225 25.04302641257052997048 29.72950446043423866627 Weight 0.70710678118654757274
+SCtrl 1 1 29.72925200339025764151 23.66928579757618678059 31.12840576001775616533 Weight 0.70710678118654757274
+SCtrl 2 0 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618 Weight 1.00000000000000000000
+SCtrl 2 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523 Weight 1.00000000000000000000
+TrimBy 0000000e 0 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501  28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+TrimBy 0000000d 1 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618  29.43514352697147273830 23.91800955991038435400 28.59628477275254709866
+TrimBy 00000018 0 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866  29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+TrimBy 0000000f 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523  27.76912649939706057012 24.74882820766738689144 29.88241370811297059618
+AddSurface
+Surface 0000000a 00646464 00000000 2 1
+SCtrl 0 0 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618 Weight 1.00000000000000000000
+SCtrl 0 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523 Weight 1.00000000000000000000
+SCtrl 1 0 26.20385777543746996798 24.45463000276424025969 30.03532295579170607880 Weight 0.70710678118654757274
+SCtrl 1 1 26.59871455547107288453 23.08088938776989706980 31.43422425537522357786 Weight 0.70710678118654757274
+SCtrl 2 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848 Weight 1.00000000000000000000
+SCtrl 2 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754 Weight 1.00000000000000000000
+TrimBy 00000011 0 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523  26.69946285908589089786 21.95587253510975145332 30.30100456769352845754
+TrimBy 00000010 1 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848  27.76912649939706057012 24.74882820766738689144 29.88241370811297059618
+TrimBy 0000000f 0 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618  28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+TrimBy 00000012 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754  26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+AddSurface
+Surface 0000000b 00646464 00000000 2 1
+SCtrl 0 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848 Weight 1.00000000000000000000
+SCtrl 0 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754 Weight 1.00000000000000000000
+SCtrl 1 0 26.40535438266710599464 22.20459629744394902673 27.76888358042831939088 Weight 0.70710678118654757274
+SCtrl 1 1 26.80021116270071246390 20.83085568244960583684 29.16778488001183688993 Weight 0.70710678118654757274
+SCtrl 2 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097 Weight 1.00000000000000000000
+SCtrl 2 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731 Weight 1.00000000000000000000
+TrimBy 00000014 0 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754  28.36547988666030306604 21.12505388735274891587 29.01487563233310140731
+TrimBy 00000013 1 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097  26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+TrimBy 00000012 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848  26.69946285908589089786 21.95587253510975145332 30.30100456769352845754
+TrimBy 00000015 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731  27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+AddSurface
+Surface 0000000c 00646464 00000000 2 1
+SCtrl 0 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097 Weight 1.00000000000000000000
+SCtrl 0 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731 Weight 1.00000000000000000000
+SCtrl 1 0 29.53589183058629430434 22.79299270725023518480 27.46306508507085197834 Weight 0.70710678118654757274
+SCtrl 1 1 29.93074861061989722089 21.41925209225589199491 28.86196638465436947740 Weight 0.70710678118654757274
+SCtrl 2 0 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866 Weight 1.00000000000000000000
+SCtrl 2 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501 Weight 1.00000000000000000000
+TrimBy 00000017 0 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731  29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+TrimBy 00000016 1 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866  27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+TrimBy 00000015 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097  28.36547988666030306604 21.12505388735274891587 29.01487563233310140731
+TrimBy 00000018 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501  29.43514352697147273830 23.91800955991038435400 28.59628477275254709866
+AddSurface
+Curve 00000001 1 1 00000001 00000003
+CCtrl 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+AddCurve
+Curve 00000002 1 1 00000002 00000003
+CCtrl 0 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+AddCurve
+Curve 00000003 1 1 00000003 00000004
+CCtrl 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+AddCurve
+Curve 00000004 1 1 00000001 00000004
+CCtrl 0 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 0.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+AddCurve
+Curve 00000005 1 1 00000002 00000004
+CCtrl 0 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 235.14822743059835374879 2.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+AddCurve
+Curve 00000006 1 1 00000004 00000005
+CCtrl 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+AddCurve
+Curve 00000007 1 1 00000001 00000005
+CCtrl 0 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 0.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+AddCurve
+Curve 00000008 1 1 00000002 00000005
+CCtrl 0 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 0.00000000000000000000 0.00000000000000000000 2.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+AddCurve
+Curve 00000009 1 1 00000005 00000006
+CCtrl 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+AddCurve
+Curve 0000000a 1 1 00000001 00000006
+CCtrl 0 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 0.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+AddCurve
+Curve 0000000b 1 1 00000002 00000006
+CCtrl 0 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 0.00000000000000000000 2.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+AddCurve
+Curve 0000000c 1 1 00000006 00000003
+CCtrl 0 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000 Weight 1.00000000000000000000
+CCtrl 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000 Weight 1.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 0.00000000000000000000
+CurvePt 1 151.32672008031227051106 235.14822743059835374879 2.00000000000000000000
+AddCurve
+Curve 0000000d 1 2 00000007 00000009
+CCtrl 0 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866 Weight 1.00000000000000000000
+CCtrl 1 29.33439522335665117225 25.04302641257052997048 29.72950446043423866627 Weight 0.70710678118654757274
+CCtrl 2 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618 Weight 1.00000000000000000000
+CurvePt 1 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866
+CurvePt 0 29.41975918974719661492 24.01790725820684357927 28.69872812268459227880
+CurvePt 0 29.39067947344481268601 24.11780952979216152698 28.80504164973233827141
+CurvePt 0 29.34700080013801937184 24.21621083155054066083 28.91400193530590456703
+CurvePt 0 29.28815843301048005287 24.31146615575190139680 29.02415296262232402569
+CurvePt 0 29.21400482578614798967 24.40185707278440929713 29.13384885651870348511
+CurvePt 0 29.12486724444196539707 24.48567412641803997531 29.24131853232784550300
+CurvePt 0 29.02157469926279631522 24.56130908356184150421 29.34474868453071394470
+CurvePt 0 28.90544712342384059411 24.62734794617229994174 29.44237818022534014517
+CurvePt 0 28.77824448038079907519 24.68265435198582835596 29.53259432486450464239
+CurvePt 0 28.64207923754278795059 24.72643353788051712172 29.61402038053286744912
+CurvePt 0 28.49930115778991890352 24.75826947743798811530 29.68558455453642963562
+CurvePt 0 28.35236734529112467840 24.77813166589616855617 29.74656334345770858363
+CurvePt 0 28.20371203671549409364 24.78635243796941978189 29.79659601194086349096
+CurvePt 0 28.05562953006551651924 24.78357966916542665103 29.83567118947437535326
+CurvePt 0 27.91018037684252561803 24.77071242601840950215 29.86409015641508091221
+CurvePt 1 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618
+AddCurve
+Curve 0000000e 1 2 00000008 00000009
+CCtrl 0 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501 Weight 1.00000000000000000000
+CCtrl 1 29.72925200339025764151 23.66928579757618678059 31.12840576001775616533 Weight 0.70710678118654757274
+CCtrl 2 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523 Weight 1.00000000000000000000
+CurvePt 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+CurvePt 0 29.81461596978079953146 22.64416664321250038938 30.09762942226810622515
+CurvePt 0 29.78553625347841560256 22.74406891479781833709 30.20394294931585221775
+CurvePt 0 29.74185758017162584110 22.84247021655619391822 30.31290323488941851338
+CurvePt 0 29.68301521304408652213 22.93772554075755465419 30.42305426220583797203
+CurvePt 0 29.60886160581975445893 23.02811645779006610724 30.53275015610221743145
+CurvePt 0 29.51972402447557186633 23.11193351142369678541 30.64021983191135944935
+CurvePt 0 29.41643147929639923177 23.18756846856749831431 30.74364998411423144375
+CurvePt 0 29.30030390345744706337 23.25360733117795319913 30.84127947980885764423
+CurvePt 0 29.17310126041440554445 23.30891373699148516607 30.93149562444802214145
+CurvePt 0 29.03693601757639086713 23.35269292288617037912 31.01292168011638494818
+CurvePt 0 28.89415793782352182006 23.38452886244364492541 31.08448585411994713468
+CurvePt 0 28.74722412532472759494 23.40439105090182181357 31.14546464304122608269
+CurvePt 0 28.59856881674909701019 23.41261182297507303929 31.19549731152438099002
+CurvePt 0 28.45048631009911943579 23.40983905417108346114 31.23457248905788929960
+CurvePt 0 28.30503715687612853458 23.39697181102406631226 31.26299145599859485856
+CurvePt 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+AddCurve
+Curve 0000000f 1 1 00000009 0000000a
+CCtrl 0 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618 Weight 1.00000000000000000000
+CCtrl 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523 Weight 1.00000000000000000000
+CurvePt 1 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618
+CurvePt 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+AddCurve
+Curve 00000010 1 2 00000007 0000000a
+CCtrl 0 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618 Weight 1.00000000000000000000
+CCtrl 1 26.20385777543746996798 24.45463000276424025969 30.03532295579170607880 Weight 0.70710678118654757274
+CCtrl 2 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848 Weight 1.00000000000000000000
+CurvePt 1 27.76912649939706057012 24.74882820766738689144 29.88241370811297059618
+CurvePt 0 27.62888769414202982944 24.71784239735423582829 29.89156930541414425306
+CurvePt 0 27.48598738035161304083 24.67651326240872577955 29.89131885637370800168
+CurvePt 0 27.34231894103947269059 24.62445033222569534814 29.88074448319012077491
+CurvePt 0 27.20003307262674496769 24.56154606032127318826 29.85913351368496648774
+CurvePt 0 27.06146223460129718319 24.48802218784039297361 29.82604533591063500353
+CurvePt 0 26.92901861270397745329 24.40445728357771315586 29.78136724395804435517
+CurvePt 0 26.80507259233471017978 24.31178919730488985351 29.72535114950655099619
+CurvePt 0 26.69182286524175751197 24.21128885477245518132 29.65862451210487193975
+CurvePt 0 26.59117197274832022913 24.10450565525113830745 29.58217184822082401752
+CurvePt 0 26.50462145283171722099 23.99318897259301053282 29.49728724018968506471
+CurvePt 0 26.43319847801790700714 23.87919395227743990517 29.40550253493747945299
+CurvePt 0 26.37742133789738119276 23.76438205752688048733 29.30849942185421141971
+CurvePt 0 26.33730535914303061418 23.65052713616178436951 29.20801551813689656001
+CurvePt 0 26.31240519487675300070 23.53923618127260297683 29.10575461797841256839
+CurvePt 0 26.30188505189564907027 23.43189096565007645268 29.00330955428046664224
+CurvePt 1 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+AddCurve
+Curve 00000011 1 2 00000008 0000000a
+CCtrl 0 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523 Weight 1.00000000000000000000
+CCtrl 1 26.59871455547107288453 23.08088938776989706980 31.43422425537522357786 Weight 0.70710678118654757274
+CCtrl 2 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754 Weight 1.00000000000000000000
+CurvePt 1 28.16398327943066703938 23.37508759267304014884 31.28131500769648809523
+CurvePt 0 28.02374447417563629870 23.34410178235989263840 31.29047060499766175212
+CurvePt 0 27.88084416038521595738 23.30277264741438258966 31.29022015595722194803
+CurvePt 0 27.73717572107307560714 23.25070971723135215825 31.27964578277363472125
+CurvePt 0 27.59488985266035143695 23.18780544532692999837 31.25803481326848398680
+CurvePt 0 27.45631901463490009974 23.11428157284604978372 31.22494663549415250259
+CurvePt 0 27.32387539273758036984 23.03071666858336996597 31.18026854354155830151
+CurvePt 0 27.19992937236831664904 22.93804858231054666362 31.12425244909006494254
+CurvePt 0 27.08667964527536042851 22.83754823977810843871 31.05752581168838943881
+CurvePt 0 26.98602875278192669839 22.73076504025679156484 30.98107314780434151658
+CurvePt 0 26.89947823286532013753 22.61944835759866379021 30.89618853977319901105
+CurvePt 0 26.82805525805151347640 22.50545333728309671528 30.80440383452099695205
+CurvePt 0 26.77227811793098766202 22.39064144253253374472 30.70740072143772891877
+CurvePt 0 26.73216213917663708344 22.27678652116743762690 30.60691681772041405907
+CurvePt 0 26.70726197491035946996 22.16549556627825978694 30.50465591756193006745
+CurvePt 0 26.69674183192925198682 22.05815035065573326278 30.40221085386398414130
+CurvePt 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754
+AddCurve
+Curve 00000012 1 1 0000000a 0000000b
+CCtrl 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848 Weight 1.00000000000000000000
+CCtrl 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754 Weight 1.00000000000000000000
+CurvePt 1 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+CurvePt 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754
+AddCurve
+Curve 00000013 1 2 00000007 0000000b
+CCtrl 0 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848 Weight 1.00000000000000000000
+CCtrl 1 26.40535438266710599464 22.20459629744394902673 27.76888358042831939088 Weight 0.70710678118654757274
+CCtrl 2 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097 Weight 1.00000000000000000000
+CurvePt 1 26.30460607905228798131 23.32961315010409464321 28.90210326811001095848
+CurvePt 0 26.31999041627656410469 23.22971545180763541794 28.79965991817796222563
+CurvePt 0 26.34907013257894803360 23.12981318022231391751 28.69334639113021978574
+CurvePt 0 26.39274880588573779505 23.03141187846394188909 28.58438610555665349011
+CurvePt 0 26.45159117301328066674 22.93615655426258115313 28.47423507824023403145
+CurvePt 0 26.52574478023760917722 22.84576563723006614737 28.36453918434385101932
+CurvePt 0 26.61488236158179176982 22.76194858359643546919 28.25706950853471255414
+CurvePt 0 26.71817490676096440438 22.68631362645263749300 28.15363935633184055973
+CurvePt 0 26.83430248259991657278 22.62027476384218260819 28.05600986063721791197
+CurvePt 0 26.96150512564295809170 22.56496835802865064124 27.96579371599804986204
+CurvePt 0 27.09767036848097276902 22.52118917213395832277 27.88436766032968350260
+CurvePt 0 27.24044844823384181609 22.48935323257649088191 27.81280348632612486881
+CurvePt 0 27.38738226073263604121 22.46949104411831399375 27.75182469740484592080
+CurvePt 0 27.53603756930826662597 22.46127027204506276803 27.70179202892169456618
+CurvePt 0 27.68412007595824420036 22.46404304084904879346 27.66271685138818270389
+CurvePt 0 27.82956922918123154886 22.47691028399606949506 27.63429788444747714493
+CurvePt 1 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+AddCurve
+Curve 00000014 1 2 00000008 0000000b
+CCtrl 0 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754 Weight 1.00000000000000000000
+CCtrl 1 26.80021116270071246390 20.83085568244960583684 29.16778488001183688993 Weight 0.70710678118654757274
+CCtrl 2 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731 Weight 1.00000000000000000000
+CurvePt 1 26.69946285908589089786 21.95587253510975145332 30.30100456769352845754
+CurvePt 0 26.71484719631016702124 21.85597483681328867533 30.19856121776147972469
+CurvePt 0 26.74392691261255450286 21.75607256522797072762 30.09224769071373373208
+CurvePt 0 26.78760558591934071160 21.65767126346959514649 29.98328740514017098917
+CurvePt 0 26.84644795304688358328 21.56241593926823441052 29.87313637782374797780
+CurvePt 0 26.92060156027121564648 21.47202502223572295748 29.76344048392736851838
+CurvePt 0 27.00973914161539468637 21.38820796860208872658 29.65597080811822650048
+CurvePt 0 27.11303168679457087364 21.31257301145829430311 29.55254065591535805879
+CurvePt 0 27.22915926263352304204 21.24653414884783586558 29.45491116022073185832
+CurvePt 0 27.35636190567656100825 21.19122774303430389864 29.36469501558156736110
+CurvePt 0 27.49252714851457568557 21.14744855713961513288 29.28326895991320100165
+CurvePt 0 27.63530522826744473264 21.11561261758214413931 29.21170478590964236787
+CurvePt 0 27.78223904076623895776 21.09575042912396725114 29.15072599698836341986
+CurvePt 0 27.93089434934187309523 21.08752965705071602542 29.10069332850521206524
+CurvePt 0 28.07897685599185066962 21.09030242585470560357 29.06161815097170020294
+CurvePt 0 28.22442600921483801812 21.10316966900172275245 29.03319918403099109128
+CurvePt 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731
+AddCurve
+Curve 00000015 1 1 0000000b 0000000c
+CCtrl 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097 Weight 1.00000000000000000000
+CCtrl 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731 Weight 1.00000000000000000000
+CurvePt 1 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+CurvePt 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731
+AddCurve
+Curve 00000016 1 2 00000007 0000000c
+CCtrl 0 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097 Weight 1.00000000000000000000
+CCtrl 1 29.53589183058629430434 22.79299270725023518480 27.46306508507085197834 Weight 0.70710678118654757274
+CCtrl 2 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866 Weight 1.00000000000000000000
+CurvePt 1 27.97062310662670014949 22.49879450234709565848 27.61597433274958746097
+CurvePt 0 28.11086191188172378475 22.52978031266023961621 27.60681873544840669865
+CurvePt 0 28.25376222567214767878 22.57110944760574966494 27.60706918448885005546
+CurvePt 0 28.39743066498429158173 22.62317237778878364907 27.61764355767243728224
+CurvePt 0 28.53971653339701219920 22.68607664969320580894 27.63925452717759156940
+CurvePt 0 28.67828737142246353642 22.75960052217408247088 27.67234270495191950090
+CurvePt 0 28.81073099331977971360 22.84316542643676228863 27.71702079690451014926
+CurvePt 0 28.93467701368904698711 22.93583351270958559098 27.77303689135600706095
+CurvePt 0 29.04792674078200320764 23.03633385524202736860 27.83976352875768611739
+CurvePt 0 29.14857763327543693777 23.14311705476334424247 27.91621619264173048691
+CurvePt 0 29.23512815319203994591 23.25443373742146846439 28.00110080067286943972
+CurvePt 0 29.30655112800585015975 23.36842875773703553932 28.09288550592507505144
+CurvePt 0 29.36232826812637597413 23.48324065248760206259 28.18988861900834308472
+CurvePt 0 29.40244424688072655272 23.59709557385269462770 28.29037252272566149713
+CurvePt 0 29.42734441114700416620 23.70838652874187602038 28.39263342288414193604
+CurvePt 0 29.43786455412811164933 23.81573174436439899182 28.49507848658208786219
+CurvePt 1 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866
+AddCurve
+Curve 00000017 1 2 00000008 0000000c
+CCtrl 0 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731 Weight 1.00000000000000000000
+CCtrl 1 29.93074861061989722089 21.41925209225589199491 28.86196638465436947740 Weight 0.70710678118654757274
+CCtrl 2 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501 Weight 1.00000000000000000000
+CurvePt 1 28.36547988666030306604 21.12505388735274891587 29.01487563233310140731
+CurvePt 0 28.50571869191533025401 21.15603969766589642632 29.00572003503192419771
+CurvePt 0 28.64861900570575059533 21.19736883261140292234 29.00597048407236400180
+CurvePt 0 28.79228744501789449828 21.24943176279443690646 29.01654485725595478129
+CurvePt 0 28.93457331343061866846 21.31233603469886261905 29.03815582676110906846
+CurvePt 0 29.07314415145607000568 21.38585990717973928099 29.07124400453543699996
+CurvePt 0 29.20558777335338618286 21.46942481144241554603 29.11592209648802764832
+CurvePt 0 29.32953379372265345637 21.56209289771523884838 29.17193819093952100729
+CurvePt 0 29.44278352081560967690 21.66259324024768062600 29.23866482834120361645
+CurvePt 0 29.54343441330904340703 21.76937643976899749987 29.31511749222524798597
+CurvePt 0 29.62998493322564286245 21.88069312242712527450 29.40000210025638693878
+CurvePt 0 29.70140790803945662901 21.99468814274269234943 29.49178680550858899778
+CurvePt 0 29.75718504815998244339 22.10950003749325531999 29.58878991859186058377
+CurvePt 0 29.79730102691433302198 22.22335495885835143781 29.68927382230917544348
+CurvePt 0 29.82220119118061063546 22.33464591374752927777 29.79153472246765943510
+CurvePt 0 29.83272133416171456588 22.44199112937005580193 29.89397978616560536125
+CurvePt 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+AddCurve
+Curve 00000018 1 1 0000000c 00000009
+CCtrl 0 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866 Weight 1.00000000000000000000
+CCtrl 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501 Weight 1.00000000000000000000
+CurvePt 1 29.43514352697147273830 23.91800955991038435400 28.59628477275254709866
+CurvePt 1 29.83000030700507920756 22.54426894491604116411 29.99518607233606104501
+AddCurve
